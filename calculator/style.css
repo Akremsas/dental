@@ -1,0 +1,77 @@
+:root {
+    --greena: rgba(35, 182, 84, 0.5);
+    --green: #005c47;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+}
+
+.calculator {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-image: url(pictures/Webp.net-resizeimage\(1\).jpg);
+    size: 500px;
+
+
+}
+
+P {
+    text-align: center;
+    margin: 10px auto;
+    color: var(--red);
+}
+
+table {
+    margin: 10px auto;
+    width: 80%;
+    height: 80%;
+}
+
+input {
+    width: 100px;
+    height: 40px;
+}
+
+#result {
+    width: 90%;
+    height: 100px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+
+}
+
+.btn {
+    --bs-btn-padding-y: 0rem;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-border-radius-lg: 10rem;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.btn:hover {
+    background-color: var(--greena);
+    border-color: var(--greena);
+
+}
+
+.btn:active {
+    background-color: var(--green);
+}
+
+.operator {
+    font-weight: bold;
+    color: var(--green);
+}
+
+#indication {
+    color: darkred;
+}
